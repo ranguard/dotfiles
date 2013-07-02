@@ -32,6 +32,8 @@
     // clicking or editing the preview will open the file and assign it a tab.
     "preview_on_click": false,
 
+    "perltidy_cmd" : [ "/usr/local/bin/perltidy"],
+
 	"ignored_packages":
 	[
 		"Vintage"
