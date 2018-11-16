@@ -1,0 +1,34 @@
+[user]
+	name = Leo Lapworth
+	email = "leo@cuckoo.org"
+[alias]
+        ci = commit
+        cia = commit -a
+        st = status
+        di = diff
+        tree = log --pretty=oneline --topo-order --graph --abbrev-commit --decorate
+        br = branch -a
+        co = checkout
+        mrg = merge --no-ff
+        pr = pull --rebase
+[core]
+        excludesfile = "/home/leo/.gitexcludes"
+[push]
+	default = simple
+[diff]
+	tool = diffmerge
+[difftool "diffmerge"]
+	cmd = /usr/bin/diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	trustExitCode = true
+	cmd = /usr/bin/diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
