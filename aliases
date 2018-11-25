@@ -1,6 +1,5 @@
 alias zshconfig="mate ~/.zshrc"
 
-alias gpr="git pull --rebase"
 alias mate="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # https://hub.docker.com/r/amazon/dynamodb-local/

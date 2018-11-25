@@ -11,6 +11,7 @@
         co = checkout
         mrg = merge --no-ff
         pr = pull --rebase
+	pom = push origin master
 [core]
         excludesfile = "/Users/leo/.gitignore"
 [push]
