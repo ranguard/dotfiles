@@ -12,7 +12,7 @@
         mrg = merge --no-ff
         pr = pull --rebase
 [core]
-        excludesfile = "/home/leo/.gitexcludes"
+        excludesfile = "/Users/leo/.gitignore"
 [push]
 	default = simple
 [diff]

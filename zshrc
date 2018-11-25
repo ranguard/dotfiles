@@ -10,10 +10,12 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Example aliases
-alias zshconfig="mate ~/.zshrc"
+source $HOME/.aliases
 
-alias gpr="git pull --rebase"
-alias mate="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+## PLENV
+# https://github.com/tokuhirom/plenv#homebrew-on-mac-os-x
+if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
+
 
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -44,7 +46,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=~/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/leo/Library/Python/3.6/bin:/usr/local/bin
+export PATH=~/usr/local/mysql/bin:/Users/leo/Library/Python/3.7/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/bin
 
 export EDITOR='/usr/bin/vim'
 

@@ -1,0 +1,13 @@
+alias zshconfig="mate ~/.zshrc"
+
+alias gpr="git pull --rebase"
+alias mate="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# https://hub.docker.com/r/amazon/dynamodb-local/
+alias dock_dyn="docker run -d -v "$PWD":/dynamodb_local_db -p 8000:8000 --network lambda-local --name dynamodb amazon/dynamodb-local"
+
+alias dock_sam=""
+
+
+
+
