@@ -7,6 +7,6 @@ alias dock_dyn="docker run -d -v "$PWD":/dynamodb_local_db -p 8000:8000 --networ
 
 alias dock_sam=""
 
-
+alias jstidy="standard --fix"
 
 
