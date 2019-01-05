@@ -3,6 +3,7 @@
 // Toggle between terminal and editor focus
 { "key": "cmd+pageup", "command": "workbench.action.terminal.focus"},
 { "key": "cmd+pageup", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+// Jump to a terminal window
 { "key":"cmd+1", "command": "workbench.action.terminal.focusAtIndex1", "when": "terminalFocus"},
 { "key":"cmd+2", "command": "workbench.action.terminal.focusAtIndex2", "when": "terminalFocus"},
 { "key":"cmd+3", "command": "workbench.action.terminal.focusAtIndex3", "when": "terminalFocus"},
@@ -11,5 +12,6 @@
 { "key":"cmd+6", "command": "workbench.action.terminal.focusAtIndex6", "when": "terminalFocus"},
 { "key":"cmd+7", "command": "workbench.action.terminal.focusAtIndex7", "when": "terminalFocus"},
 { "key":"cmd+8", "command": "workbench.action.terminal.focusAtIndex8", "when": "terminalFocus"},
+// Create a new terminal
 { "key":"cmd+n", "command": "workbench.action.terminal.new", "when": "terminalFocus"}
 ]
