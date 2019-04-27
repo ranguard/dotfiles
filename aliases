@@ -1,4 +1,6 @@
 alias zshconfig="mate ~/.zshrc"
+alias d="docker"
+alias fig="docker-compose"
 
 alias mate="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
