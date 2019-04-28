@@ -12,9 +12,12 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 source $HOME/.aliases
 
+eval "$(anyenv init -)"
+
 ## PLENV
 # https://github.com/tokuhirom/plenv#homebrew-on-mac-os-x
 if which plenv > /dev/null; then eval "$(plenv init - zsh)"; fi
+export PATH="$HOME/.plenv/bin:$PATH"
 
 
 # alias zshconfig="mate ~/.zshrc"
