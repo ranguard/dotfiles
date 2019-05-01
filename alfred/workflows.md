@@ -1,5 +1,6 @@
 # Useful workflows
 
+https://github.com/ycjcl868/alfred-npmjs
 
 12:15 < oalders> ranguard: https://github.com/fniephaus/alfred-travis-ci/releases
 12:15 < oalders> https://github.com/Kapeli/Dash-Alfred-Workflow
